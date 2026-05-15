@@ -1,0 +1,7 @@
+pyrogram
+tgcrypto
+pydub
+mutagen
+pyromod
+flask
+static-ffmpeg
