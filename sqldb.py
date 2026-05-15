@@ -1,5 +1,5 @@
 from kvsqlite.sync import Client as C
-from config import database_name
+#from config import database_name
 #انشاء
 #dev = [1160471152,435009958]
 db = C(f"audiobot.sqlite")
