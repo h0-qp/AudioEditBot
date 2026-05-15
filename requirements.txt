@@ -4,5 +4,4 @@ pydub
 mutagen
 pyromod
 flask
-static-ffmpeg
 kvsqlite
