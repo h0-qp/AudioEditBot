@@ -10,10 +10,8 @@ from mutagen.easyid3 import EasyID3
 from mutagen.id3 import ID3, TIT2, TPE1, APIC
 from pyromod import listen # for ask
 from sqldb import db
-import static_ffmpeg
 
 # تفعيل ffmpeg حتى يشتغل قص الصوت بدون مشاكل على سيرفرات Render
-static_ffmpeg.add_paths()
 
 # --- إعداد السيرفر الوهمي (Flask) لـ Render ---
 web_app = Flask(__name__)
